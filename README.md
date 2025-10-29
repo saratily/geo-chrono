@@ -75,6 +75,24 @@ Example data sources that can be converted to this format:
 3. **Generate Map**: A Google Maps HTML file is generated with all points plotted
 4. **Connect Points**: Polyline connections drawn between consecutive timestamps
 5. **Output File**: Open `map.html` to visualize your path
+
+## 📸 Screenshot
+
+Here's what the generated interactive map looks like:
+
+![GeoChrono Map Example](map_10_points.png)
+
+**What you'll see:**
+- 🟢 **Start marker** (green) - Beginning of your journey
+- 🔴 **End marker** (red) - Final destination  
+- 🔵 **Waypoint markers** (blue) - Numbered sequence points
+- 🔗 **Connected path** (red line) - Chronological route between points
+- ℹ️ **Interactive info windows** - Click any marker for details (timestamp, coordinates, description)
+- 🎛️ **Map controls** - Zoom, street view, fullscreen, map type switching
+- 📊 **Statistics bar** - Total points, start/end times displayed at the top
+
+The map is fully interactive - you can zoom, pan, switch between map/satellite view, and click on any marker to see detailed information about that GPS point.
+
 ## ⚙️ Installation & Usage
 
 ### Prerequisites
@@ -439,7 +457,7 @@ Pull requests are welcome!
 4. Submit a PR 🎉
 ## ⚖️ License
 
-MIT License © 2025 [Your Name]
+MIT License © 2025 Sara Ismail Tily
 
 ## 🙌 Credits
 
